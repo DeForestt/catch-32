@@ -4,9 +4,11 @@
 
 void kernel_main(void) {
 	terminal_initialize();
-	for(int i = 1; i < 27; i++) {
-		terminal_putchar('0' + i);
-		printf("Hello, kernel World!\n");
-	}
+	printf("*************************\n");
+	printf("** Welcome to catch 32 **\n");
+	printf("*************************\n");
+	printf("\n");
+	printf("\n");
 	
+	return;
 }
