@@ -1,6 +1,6 @@
 #include <stdint.h>
 //Create a strunct Representation an interrupt descriptor
-struct InerupptDescriptor{
+struct InerruptDescriptor{
     uint16_t offset_l;
     uint16_t selector;
     uint8_t zero;
